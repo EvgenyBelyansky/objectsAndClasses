@@ -6,6 +6,8 @@ public class App {
         Book book1 = new Book("Сказка о царе салтане", pushkin, 1831);
         Book book2 = new Book("Игра престолов", martin, 1996);
 
+        book1.setPublishingYear(1832);
+
         System.out.println(book1);
         System.out.println(book2);
     }
